@@ -3,6 +3,7 @@ import { SnowRemoval } from './SnowRemoval.jsx';
 import { SquareFeet2acres } from './SquareFeet2acres.jsx';
 import { LawnMowingTime } from './LawnMowingTime.jsx';
 import { AirQuality } from './AirQuality.jsx';
+import { YeeHa } from './YeeHa.jsx';
 
 import {
   View,
@@ -27,6 +28,10 @@ export default function App() {
       <AirQuality aqi={175} />
       <AirQuality aqi={250} />
       <AirQuality aqi={350} />
+      <YeeHa num ={21} />
+      <YeeHa num ={9} />
+      <YeeHa num ={14} />
+      <YeeHa num ={10} />
     </View>
   );
 }
