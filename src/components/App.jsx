@@ -2,6 +2,8 @@ import {Hello} from './Hello.jsx';
 import { SnowRemoval } from './SnowRemoval.jsx';
 import { SquareFeet2acres } from './SquareFeet2acres.jsx';
 import { LawnMowingTime } from './LawnMowingTime.jsx';
+import { AirQuality } from './AirQuality.jsx';
+
 import {
   View,
 } from 'react-native';
@@ -19,6 +21,12 @@ export default function App() {
       <LawnMowingTime width={10} length={5} rate={5} />
       <LawnMowingTime width={20} length={10} rate={10} />
       <LawnMowingTime width={30} length={20} rate={15} />
+      <AirQuality aqi={25} />
+      <AirQuality aqi={75} />
+      <AirQuality aqi={125} />
+      <AirQuality aqi={175} />
+      <AirQuality aqi={250} />
+      <AirQuality aqi={350} />
     </View>
   );
 }
