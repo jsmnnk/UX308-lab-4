@@ -1,6 +1,7 @@
 import {Hello} from './Hello.jsx';
 import { SnowRemoval } from './SnowRemoval.jsx';
 import { SquareFeet2acres } from './SquareFeet2acres.jsx';
+import { LawnMowingTime } from './LawnMowingTime.jsx';
 import {
   View,
 } from 'react-native';
@@ -15,6 +16,9 @@ export default function App() {
       <SquareFeet2acres sqft={43560} />
       <SquareFeet2acres sqft={21780} />
       <SquareFeet2acres sqft={87120} />
+      <LawnMowingTime width={10} length={5} rate={5} />
+      <LawnMowingTime width={20} length={10} rate={10} />
+      <LawnMowingTime width={30} length={20} rate={15} />
     </View>
   );
 }
