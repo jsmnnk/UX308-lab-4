@@ -4,6 +4,7 @@ import { SquareFeet2acres } from './SquareFeet2acres.jsx';
 import { LawnMowingTime } from './LawnMowingTime.jsx';
 import { AirQuality } from './AirQuality.jsx';
 import { YeeHa } from './YeeHa.jsx';
+import { Slope } from './Slope.jsx';
 
 import {
   View,
@@ -32,6 +33,9 @@ export default function App() {
       <YeeHa num ={9} />
       <YeeHa num ={14} />
       <YeeHa num ={10} />
+      <Slope x1={1} y1={2} x2={3} y2={6} />
+      <Slope x1={2} y1={5} x2={4} y2={1} />
+      <Slope x1={0} y1={0} x2={2} y2={1} />
     </View>
   );
 }
